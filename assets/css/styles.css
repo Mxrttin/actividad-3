@@ -1,0 +1,41 @@
+header h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+}
+
+.perro-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-left: 1rem;
+}
+
+.perro-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 1rem;
+}
+
+.perro-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 1rem;
+}
+
+.perro-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 1rem;
+}
