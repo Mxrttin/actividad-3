@@ -9,14 +9,14 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary d-nav">
-        <div class="container-fluid d-nav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-nav ">
+        <div class="container-fluid p-1">
           <a class="navbar-brand" href="#">Ayuda a un peludo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse d-nav" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active d-focus" aria-current="page" href="#">Inicio</a>
@@ -34,6 +34,44 @@
           </div>
         </div>
     </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner ">
+            <div class="carousel-item active d-item">
+                <img src="./assets/img/slider 1.jpg" class="d-block w-100 d-img" alt="slider 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1 class="display-1 fw-bolder text-capitalize text-warning"> Adopta</h1>
+                    <p class="mt-5 fs-3 text-uppercase"> Salva una vida</p>
+                </div>
+            </div>
+
+            <div class="carousel-item active d-item">
+                <img src="./assets/img/slider 2.webp" class="d-block w-100 d-img" alt="slider 2">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1 class="display-1 fw-bolder text-capitalize text-warning"> Adopta</h1>
+                    <p class="mt-5 fs-3 text-uppercase"> Salva una vida</p>
+                </div>
+            </div>
+
+            <div class="carousel-item active d-item">
+                <img src="./assets/img/slider 3.jpg" class="d-block w-100 d-img" alt="slider ">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1 class="display-1 fw-bolder text-capitalize text-warning"> Adopta</h1>
+                    <p class="mt-5 fs-3 text-uppercase"> Salva una vida</p>
+                </div>
+            </div>  
+        </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
 
 

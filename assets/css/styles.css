@@ -42,13 +42,22 @@ h3 {
 }
 
 
-.d-nav :focus{
+.d-nav :hover{
     color: rgb(224, 117, 2);
-    color: white;
 
 }
 
 .d-focus{
     background-color: rgb(224, 117, 2);
-    color: white;
+    color: black;
 }
+
+.d-item{
+    height: 600px;
+}
+
+.d-img{
+    height: 100%;
+    filter: brightness(0.6);
+}
+
