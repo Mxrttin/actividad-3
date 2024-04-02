@@ -61,3 +61,14 @@ h3 {
     filter: brightness(0.6);
 }
 
+
+
+
+.containerrr{
+    display: flex;
+
+    justify-content: space-between;
+
+
+    
+}
