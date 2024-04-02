@@ -39,3 +39,15 @@ h3 {
     flex-direction: row-reverse;
     margin-top: 1rem;
 }
+
+
+.d-nav :focus{
+    color: rgb(224, 117, 2);
+    color: white;
+
+}
+
+.d-focus{
+    background-color: rgb(224, 117, 2);
+    color: white;
+}
