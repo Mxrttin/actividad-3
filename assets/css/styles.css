@@ -19,43 +19,6 @@ h3 {
     margin-left: 7rem;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-}
-
-.perro-1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-left: 5rem;
-
-}
-
-.perro-2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 5rem;
-}
-
-.perro-3 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 5rem;
-}
-
-.perro-4 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 5rem;
-}
-
-
-
-
 .d-nav :focus{
     color: rgb(224, 117, 2);
     color: white;
