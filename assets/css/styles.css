@@ -48,7 +48,7 @@ h3 {
 }
 
 .d-focus{
-    background-color: rgb(224, 117, 2);
+    background-color: rgb(255, 193, 7, 1);
     color: black;
 }
 
@@ -61,3 +61,7 @@ h3 {
     filter: brightness(0.6);
 }
 
+
+a{
+    text-decoration: none;
+}
