@@ -7,7 +7,6 @@ header h1 {
 
 ul{
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
@@ -17,34 +16,6 @@ h3 {
     margin-top: 3rem;
     margin-right: 7rem;
     margin-left: 7rem;
-}
-
-.perro-1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-left: 1rem;
-}
-
-.perro-2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 1rem;
-}
-
-.perro-3 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 1rem;
-}
-
-.perro-4 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 1rem;
 }
 
 
@@ -72,3 +43,53 @@ a {
     color: black;
 }
 
+
+
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img-container {
+    padding-right: 200px;
+    margin-bottom: 100px;
+  }
+
+  .img-uniforme {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .img-separada {
+    margin: 20px;
+  }
+
+.img-name {
+    position: relative;
+    bottom: 5;
+    left: 5;
+    right: 5;
+    text-align: center;
+    background-color: rgba(253, 253, 253, 0.726);
+    padding: 10px;
+    margin: 0;
+  }
+
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img-container {
+    padding-right: 200px;
+    margin-bottom: 100px;
+  }
+
+  .img-uniforme {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .img-separada {
+    margin: 20px;
+  }
