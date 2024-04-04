@@ -5,6 +5,12 @@ header h1 {
     margin: 5rem;
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 h3 {
     display: flex;
     justify-content: center;
@@ -61,7 +67,8 @@ h3 {
     filter: brightness(0.6);
 }
 
-
-a{
+a {
     text-decoration: none;
+    color: black;
 }
+
